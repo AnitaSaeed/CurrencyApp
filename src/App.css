@@ -1,0 +1,21 @@
+.app{
+    background-color: #51555c;
+    height: 100vh;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main{
+    background-color: #bac4d6;
+    width: 80%;
+    height: 80%;
+   
+}
+.header{
+    height: 50px;
+    background-color: #f26419;
+    text-align: right;
+    padding-right: 10px;
+    padding-top: 10px;
+    color:#f1faee ;
+}
