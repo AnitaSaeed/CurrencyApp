@@ -6,9 +6,11 @@
   align-items: center;
 }
 .main{
+    scroll-snap-align: start;
     background-color: #bac4d6;
     width: 80%;
     height: 80%;
+    overflow-y: scroll;
    
 }
 .header{
@@ -18,4 +20,15 @@
     padding-right: 10px;
     padding-top: 10px;
     color:#f1faee ;
+}
+.box-body{
+    
+    padding: 10px;
+     text-align: right;
+     display: flex;
+     flex-flow: wrap;
+}
+.box{
+    width: 50%;
+    color: #51555c;
 }
